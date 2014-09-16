@@ -528,6 +528,7 @@ public class ProgressWheel extends View {
     
     public void refreshView() {
         setupPaints();
+        setupBounds();
         invalidate();
     }
 }
