@@ -525,4 +525,9 @@ public class ProgressWheel extends View {
     public void setDelayMillis(int delayMillis) {
         this.delayMillis = delayMillis;
     }
+    
+    public void refreshView() {
+        setupPaints();
+        invalidate();
+    }
 }
